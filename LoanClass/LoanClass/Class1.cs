@@ -13,7 +13,7 @@ namespace LoanClass
 
         public void getInput(string issn, string iname, string ichoice, double iloan, double idwnpay, double itime, double irate)
         {
-            ssn = iname;
+            ssn = issn;
             name = iname;
             AmountReq = iloan;
             downPayment = idwnpay;
@@ -44,20 +44,48 @@ namespace LoanClass
             {
                 Rate += 0;
             }
+
             AmountReq = AmountReq - downPayment;
+
             Rate = Rate / 100;
+
             Payment = (Rate * AmountReq) / (12 * (1 - Math.Pow(1 + (Rate / 12), (Time * 12) * -1)));
+
+            Totali = Math.Round(((Payment * (Time * 12)) - AmountReq), 2);
+
             return Payment = Math.Round(Payment, 2);
         }
-
-        public void setAccumI()
+        public string getName()
         {
-            Totali = (Payment * (Time * 12)) - AmountReq;
-            Totali = Math.Round(Payment, 2);
+            return name;
+        }
+        public string getSSN()
+        {
+            return ssn;
+        }
+        public string getChoice()
+        {
+            return Choice;
         }
         public double getTotali()
         {
             return Totali;
+        }
+        public double getLoan()
+        {
+            return AmountReq;
+        }
+        public double getDownPayment()
+        {
+            return downPayment;
+        }
+        public double getRate()
+        {
+            return Rate;
+        }
+        public double getTime()
+        {
+            return Time;
         }
     }
 }
