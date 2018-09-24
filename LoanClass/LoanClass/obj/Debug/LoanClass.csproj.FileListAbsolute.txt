@@ -1,0 +1,6 @@
+D:\school\Data202\LoanClass\LoanClass\bin\Debug\LoanClass.dll
+D:\school\Data202\LoanClass\LoanClass\bin\Debug\LoanClass.pdb
+D:\school\Data202\LoanClass\LoanClass\obj\Debug\LoanClass.csprojAssemblyReference.cache
+D:\school\Data202\LoanClass\LoanClass\obj\Debug\LoanClass.csproj.CoreCompileInputs.cache
+D:\school\Data202\LoanClass\LoanClass\obj\Debug\LoanClass.dll
+D:\school\Data202\LoanClass\LoanClass\obj\Debug\LoanClass.pdb
