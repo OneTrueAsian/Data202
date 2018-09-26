@@ -13,6 +13,10 @@ namespace LoanClass
 
         public void getInput(string issn, string iname, string ichoice, double iloan, double idwnpay, double itime, double irate)
         {
+            /// <summary>
+            /// To initialize the inputs
+            /// </summary>
+
             ssn = issn;
             name = iname;
             AmountReq = iloan;
@@ -24,8 +28,12 @@ namespace LoanClass
 
         public double Calculate()
         {
+            /// <summary>
+            /// To calculate the monthly payment and total interest rate
+            /// </summary>
             if (downPayment < (AmountReq * .10))
             {
+
                 Rate += 1;
             }
             if (Choice == "H")
@@ -57,34 +65,58 @@ namespace LoanClass
         }
         public string getName()
         {
+            /// <summary>
+            /// To access the name
+            /// </summary>
             return name;
         }
         public string getSSN()
         {
+            /// <summary>
+            /// To access the ssn
+            /// </summary>
             return ssn;
         }
         public string getChoice()
         {
+            /// <summary>
+            /// To access the choice
+            /// </summary>
             return Choice;
         }
         public double getTotali()
-        {
+        { 
+            /// <summary>
+           /// To access the Totali
+           /// </summary>
             return Totali;
         }
         public double getLoan()
         {
+            /// <summary>
+            /// To access the AmountReq
+            /// </summary>
             return AmountReq;
         }
         public double getDownPayment()
         {
+            /// <summary>
+            /// To access the downPayment
+            /// </summary>
             return downPayment;
         }
         public double getRate()
         {
+            /// <summary>
+            /// To access the Rate
+            /// </summary>
             return Rate;
         }
         public double getTime()
         {
+            /// <summary>
+            /// To access the Time
+            /// </summary>
             return Time;
         }
     }

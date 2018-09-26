@@ -10,3 +10,9 @@ D:\school\Data202\Class\LoanClass\LoanClass\obj\Debug\LoanClass.csproj.CoreCompi
 D:\school\Data202\Class\LoanClass\LoanClass\obj\Debug\LoanClass.dll
 D:\school\Data202\Class\LoanClass\LoanClass\obj\Debug\LoanClass.pdb
 D:\school\Data202\Class\LoanClass\LoanClass\obj\Debug\LoanClass.csprojAssemblyReference.cache
+J:\Data202\Data202\LoanClass\LoanClass\bin\Debug\LoanClass.dll
+J:\Data202\Data202\LoanClass\LoanClass\bin\Debug\LoanClass.pdb
+J:\Data202\Data202\LoanClass\LoanClass\obj\Debug\LoanClass.csprojAssemblyReference.cache
+J:\Data202\Data202\LoanClass\LoanClass\obj\Debug\LoanClass.csproj.CoreCompileInputs.cache
+J:\Data202\Data202\LoanClass\LoanClass\obj\Debug\LoanClass.dll
+J:\Data202\Data202\LoanClass\LoanClass\obj\Debug\LoanClass.pdb
