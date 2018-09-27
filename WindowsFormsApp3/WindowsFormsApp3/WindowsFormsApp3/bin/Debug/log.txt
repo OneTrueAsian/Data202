@@ -1,0 +1,10 @@
+2018-09-26 14:21:05,540 [1] INFO  WindowsFormsApp3.Form1 [(null)] - Got it!
+2018-09-26 14:21:06,251 [1] INFO  WindowsFormsApp3.Form1 [(null)] - Got it!
+2018-09-26 14:21:06,484 [1] INFO  WindowsFormsApp3.Form1 [(null)] - Got it!
+2018-09-26 14:21:06,716 [1] INFO  WindowsFormsApp3.Form1 [(null)] - Got it!
+2018-09-26 14:21:06,908 [1] INFO  WindowsFormsApp3.Form1 [(null)] - Got it!
+2018-09-26 14:21:07,155 [1] INFO  WindowsFormsApp3.Form1 [(null)] - Got it!
+2018-09-26 16:43:16,177 [1] INFO  WindowsFormsApp3.Form1 [(null)] - Got it!
+2018-09-26 16:43:16,678 [1] INFO  WindowsFormsApp3.Form1 [(null)] - Got it!
+2018-09-26 16:43:16,937 [1] INFO  WindowsFormsApp3.Form1 [(null)] - Got it!
+2018-09-26 16:43:17,391 [1] INFO  WindowsFormsApp3.Form1 [(null)] - Got it!
