@@ -1,0 +1,5 @@
+J:\Data202\Data202\HomeWork03\HomeWork03\obj\Debug\HomeWork03.csprojAssemblyReference.cache
+J:\Data202\Data202\HomeWork03\HomeWork03\obj\Debug\HomeWork03.Properties.Resources.resources
+J:\Data202\Data202\HomeWork03\HomeWork03\obj\Debug\HomeWork03.csproj.GenerateResource.cache
+J:\Data202\Data202\HomeWork03\HomeWork03\obj\Debug\HomeWork03.csproj.CoreCompileInputs.cache
+J:\Data202\Data202\HomeWork03\HomeWork03\obj\Debug\WindowsFormsApp3.Form1.resources

@@ -25,3 +25,17 @@ J:\Data202\ClassWork\Code\WindowsFormsApp3\WindowsFormsApp3\WindowsFormsApp3\obj
 J:\Data202\ClassWork\Code\WindowsFormsApp3\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CopyComplete
 J:\Data202\ClassWork\Code\WindowsFormsApp3\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
 J:\Data202\ClassWork\Code\WindowsFormsApp3\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+J:\Data202\Data202\HomeWork03\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\log4.config
+J:\Data202\Data202\HomeWork03\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+J:\Data202\Data202\HomeWork03\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+J:\Data202\Data202\HomeWork03\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+J:\Data202\Data202\HomeWork03\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\log4net.dll
+J:\Data202\Data202\HomeWork03\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\log4net.xml
+J:\Data202\Data202\HomeWork03\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+J:\Data202\Data202\HomeWork03\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+J:\Data202\Data202\HomeWork03\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+J:\Data202\Data202\HomeWork03\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+J:\Data202\Data202\HomeWork03\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+J:\Data202\Data202\HomeWork03\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CopyComplete
+J:\Data202\Data202\HomeWork03\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+J:\Data202\Data202\HomeWork03\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
