@@ -61,7 +61,6 @@ namespace WindowsFormsApp3
             Dictionary<string, int> tDict = new Dictionary<string, int>();
 
             char[] delimiterChars = { ' ', ',', '.', ':', '\t' };
-            // string demoS = "Yonkers my Yonkers.";
             string demoS = textBox1.Text;
             string[] words = demoS.Split(delimiterChars,
                             StringSplitOptions.RemoveEmptyEntries);

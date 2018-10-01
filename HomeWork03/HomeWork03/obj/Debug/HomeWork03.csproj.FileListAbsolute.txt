@@ -3,3 +3,11 @@ J:\Data202\Data202\HomeWork03\HomeWork03\obj\Debug\HomeWork03.Properties.Resourc
 J:\Data202\Data202\HomeWork03\HomeWork03\obj\Debug\HomeWork03.csproj.GenerateResource.cache
 J:\Data202\Data202\HomeWork03\HomeWork03\obj\Debug\HomeWork03.csproj.CoreCompileInputs.cache
 J:\Data202\Data202\HomeWork03\HomeWork03\obj\Debug\WindowsFormsApp3.Form1.resources
+J:\Data202\Data202\HomeWork03\HomeWork03\bin\Debug\HomeWork03.exe.config
+J:\Data202\Data202\HomeWork03\HomeWork03\bin\Debug\HomeWork03.exe
+J:\Data202\Data202\HomeWork03\HomeWork03\bin\Debug\HomeWork03.pdb
+J:\Data202\Data202\HomeWork03\HomeWork03\bin\Debug\log4net.dll
+J:\Data202\Data202\HomeWork03\HomeWork03\bin\Debug\log4net.xml
+J:\Data202\Data202\HomeWork03\HomeWork03\obj\Debug\HomeWork03.csproj.CopyComplete
+J:\Data202\Data202\HomeWork03\HomeWork03\obj\Debug\HomeWork03.exe
+J:\Data202\Data202\HomeWork03\HomeWork03\obj\Debug\HomeWork03.pdb
