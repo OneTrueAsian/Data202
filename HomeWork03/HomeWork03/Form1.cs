@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Diagnostics.Tracing;
 using log4net;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 //example at https://stackoverflow.com/questions/9805281/writing-logs-to-file
 namespace WindowsFormsApp3
@@ -23,6 +24,7 @@ namespace WindowsFormsApp3
             InitializeComponent();
         }
 
+        // Time Stamp
         private void button1_Click(object sender, EventArgs e)
         {
             Console.WriteLine("Starting");
@@ -30,18 +32,23 @@ namespace WindowsFormsApp3
             MessageBox.Show("Message Logged");
         }
 
+        // Write To File
         private void button2_Click(object sender, EventArgs e)
         {
+
             StreamWriter sr =
-                new StreamWriter(new FileStream(@"C:\Temp\Demo.txt",
-                        FileMode.Append,
-                        FileAccess.Write));
+                new StreamWriter(new FileStream(@"C:\temp\Demo.txt",
+            FileMode.Append,
+            FileAccess.Write)); 
             sr.WriteLine(textBox1.Text);
             sr.Close();
             sr.Dispose();
-            MessageBox.Show("Done");
+
+            MessageBox.Show("Message Sent");
+            Process.Start(@"C:\temp\Demo.txt"); // Opens the File
         }
 
+        // Select the file
         private void button4_Click(object sender, EventArgs e)
         {
             string fName;
@@ -56,15 +63,18 @@ namespace WindowsFormsApp3
 
         }
 
+        // Word Count
         private void button5_Click(object sender, EventArgs e)
         {
-            Dictionary<string, int> tDict = new Dictionary<string, int>();
+            StreamWriter sr = new StreamWriter(new FileStream(@"C:\temp\FileThis.txt",
+                    FileMode.Append,FileAccess.Write)); // creates a file for word count
+            string readF = File.ReadAllText(@"C:\temp\Demo.txt");
 
+            Dictionary<string, int> tDict = new Dictionary<string, int>();
             char[] delimiterChars = { ' ', ',', '.', ':', '\t' };
-            string demoS = textBox1.Text;
+            string demoS = readF;
             string[] words = demoS.Split(delimiterChars,
                             StringSplitOptions.RemoveEmptyEntries);
-            string[] foo = { "hi", "bye", "here" };
 
             foreach (string x in words)
             {
@@ -73,8 +83,8 @@ namespace WindowsFormsApp3
                 else
                     tDict[x] = 1;
             }
-            StringBuilder tStr = new StringBuilder();
 
+            StringBuilder tStr = new StringBuilder();
 
             foreach (KeyValuePair<string, int> entry in tDict)
             {
@@ -82,12 +92,14 @@ namespace WindowsFormsApp3
             }
 
             MessageBox.Show("Got:" + tStr);
+            sr.WriteLine(tStr);
+            sr.Close();
+            sr.Dispose();
+
+            Process.Start(@"C:\temp\FileThis.txt");
         }
 
-        private void button6_Click(object sender, EventArgs e)
-        {
-        }
-
+        // List the files
         private void button3_Click(object sender, EventArgs e)
         {
             string folder = textBox2.Text;
@@ -104,5 +116,7 @@ namespace WindowsFormsApp3
                 MessageBox.Show("Error:" + err.Message, "Problem", MessageBoxButtons.OK);
             }
         }
+
+        
     }
 }

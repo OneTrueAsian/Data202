@@ -75,7 +75,7 @@
             this.button3.Location = new System.Drawing.Point(13, 199);
             this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(262, 77);
+            this.button3.Size = new System.Drawing.Size(262, 97);
             this.button3.TabIndex = 3;
             this.button3.Text = "List files.";
             this.button3.UseVisualStyleBackColor = true;
@@ -121,14 +121,14 @@
             this.listBox2.ItemHeight = 20;
             this.listBox2.Location = new System.Drawing.Point(294, 232);
             this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(290, 64);
+            this.listBox2.Size = new System.Drawing.Size(291, 64);
             this.listBox2.TabIndex = 10;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(597, 333);
+            this.ClientSize = new System.Drawing.Size(754, 350);
             this.Controls.Add(this.listBox2);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
