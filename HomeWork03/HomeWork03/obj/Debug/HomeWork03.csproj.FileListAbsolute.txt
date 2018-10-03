@@ -26,3 +26,5 @@ J:\Data202\Data202\HomeWork03\HomeWork03\obj\Debug\HomeWork03.csproj.CoreCompile
 J:\Data202\Data202\HomeWork03\HomeWork03\obj\Debug\HomeWork03.csproj.CopyComplete
 J:\Data202\Data202\HomeWork03\HomeWork03\obj\Debug\HomeWork03.exe
 J:\Data202\Data202\HomeWork03\HomeWork03\obj\Debug\HomeWork03.pdb
+C:\Users\Ryan\Documents\DATA202\Data202\HomeWork03\HomeWork03\bin\Debug\FileProcessing.dll
+C:\Users\Ryan\Documents\DATA202\Data202\HomeWork03\HomeWork03\bin\Debug\FileProcessing.pdb

@@ -73,12 +73,8 @@ namespace WindowsFormsApp3
         // Select the output file
         private void button1_Click_1(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-            
-=======
             folderBrowserDialog1.ShowDialog();
             oFolder = folderBrowserDialog1.SelectedPath;
->>>>>>> efc173855d0d540351998cfd0cdea2c9623e8d49
         }
 
         private void Form1_Load(object sender, EventArgs e){}
@@ -87,8 +83,8 @@ namespace WindowsFormsApp3
         private void button5_Click(object sender, EventArgs e)
         {
             
-            string if1 = @"C:\temp\Demo.txt";
-            string of1 = @"C:\temp\FileThis.txt";
+            string if1 = iFolder;
+            string of1 = oFolder + "FileThis.txt";
             ProcessTxt a = new ProcessTxt();
             a.doString(if1, of1);
             MessageBox.Show("Got:" + Environment.NewLine + a.GettStr().ToString());

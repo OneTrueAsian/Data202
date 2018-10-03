@@ -26,9 +26,9 @@ namespace FileProcessing
 
             File.WriteAllText(OFile, ""); // clears out the ofolder text file so it does not pile up
 
-            StreamWriter sr = new StreamWriter(new FileStream(@OFile,
+            StreamWriter sr = new StreamWriter(new FileStream(OFile,
                     FileMode.Append, FileAccess.Write)); // creates a file for word count
-            string readF = File.ReadAllText(@InFile); // read in the user input file and text
+            string readF = File.ReadAllText(InFile); // read in the user input file and text
 
             char[] delimiterChars = { ' ', ',', '.', ':', '\t' };
             string demoS = readF;
