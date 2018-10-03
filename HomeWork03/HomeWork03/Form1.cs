@@ -66,12 +66,13 @@ namespace WindowsFormsApp3
         // Word Count
         private void button5_Click(object sender, EventArgs e)
         {
+            File.Delete(@"C:\temp\FileThis.txt");
             StreamWriter sr = new StreamWriter(new FileStream(@"C:\temp\FileThis.txt",
                     FileMode.Append,FileAccess.Write)); // creates a file for word count
             string readF = File.ReadAllText(@"C:\temp\Demo.txt");
 
             Dictionary<string, int> tDict = new Dictionary<string, int>();
-            char[] delimiterChars = { ' ', ',', '.', ':', '\t' };
+            char[] delimiterChars = { ' ', ',', '.', ':', '\t'};
             string demoS = readF;
             string[] words = demoS.Split(delimiterChars,
                             StringSplitOptions.RemoveEmptyEntries);
@@ -88,14 +89,15 @@ namespace WindowsFormsApp3
 
             foreach (KeyValuePair<string, int> entry in tDict)
             {
-                tStr.Append("\nWord: " + entry.Key.ToString() + "," + entry.Value.ToString());
+                tStr.Append("Word: " + entry.Key.ToString() + ", " + entry.Value.ToString() + Environment.NewLine);
             }
 
-            MessageBox.Show("Got:" + tStr);
+            MessageBox.Show("Got:" + Environment.NewLine + tStr);
             sr.WriteLine(tStr);
             sr.Close();
             sr.Dispose();
 
+            File.Delete(@"C:\temp\Demo.txt");
             Process.Start(@"C:\temp\FileThis.txt");
         }
 
