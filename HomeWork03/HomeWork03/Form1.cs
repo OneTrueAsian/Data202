@@ -11,6 +11,7 @@ using System.Diagnostics.Tracing;
 using log4net;
 using System.Windows.Forms;
 using System.Diagnostics;
+using FileProcessing;
 
 //example at https://stackoverflow.com/questions/9805281/writing-logs-to-file
 namespace WindowsFormsApp3
@@ -65,54 +66,22 @@ namespace WindowsFormsApp3
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         // Word Count
         private void button5_Click(object sender, EventArgs e)
         {
-            File.Delete(@"C:\temp\FileThis.txt");
             
-            StreamWriter sr = new StreamWriter(new FileStream(@"C:\temp\FileThis.txt",
-                    FileMode.Append,FileAccess.Write)); // creates a file for word count
-            string readF = File.ReadAllText(@"C:\temp\Demo.txt");
-
-            Dictionary<string, int> tDict = new Dictionary<string, int>();
-            char[] delimiterChars = { ' ', ',', '.', ':', '\t' };
-            string demoS = readF;
-            string[] words = demoS.Split(delimiterChars,
-                            StringSplitOptions.RemoveEmptyEntries);
-
-            foreach (string x in words)
-            {
-                if (tDict.ContainsKey(x))
-                    tDict[x] = tDict[x] + 1;
-                else
-                    tDict[x] = 1;
-            }
-
-
-            StringBuilder tStr = new StringBuilder();
-
-            foreach (KeyValuePair<string, int> entry in tDict)
-            {
-                tStr.Append("Word: " + entry.Key.ToString() + "," + entry.Value.ToString() + Environment.NewLine);
-            }
-
-            MessageBox.Show("Got:" + Environment.NewLine +tStr);
-
-            sr.WriteLine(tStr);
-            sr.Close();
-            sr.Dispose();
-            File.Delete(@"C:\temp\Demo.txt");
-            Process.Start(@"C:\temp\FileThis.txt");
-
-            // Time Stamp
-            Console.WriteLine("Starting");
-            log.Info("counted Word!");
+            string if1 = @"C:\temp\Demo.txt";
+            string of1 = @"C:\temp\FileThis.txt";
+            ProcessTxt a = new ProcessTxt();
+            a.doString(if1, of1);
+            MessageBox.Show("Got:" + Environment.NewLine + a.GettStr().ToString());
+            Process.Start(of1);
+            log.Info("done");
             MessageBox.Show("Read from file logged");
-            //File.Delete(@"C:\temp\FileThis.txt");
-            //File.Create(@"C:\temp\FileThis.txt").Close();
+            Console.WriteLine("Starting");
         }
 
         // List the files

@@ -1,0 +1,9 @@
+J:\Data202\Data202\HomeWork03\FileProcessing\bin\Debug\FileProcessing.dll
+J:\Data202\Data202\HomeWork03\FileProcessing\bin\Debug\FileProcessing.pdb
+J:\Data202\Data202\HomeWork03\FileProcessing\bin\Debug\log4net.dll
+J:\Data202\Data202\HomeWork03\FileProcessing\bin\Debug\log4net.xml
+J:\Data202\Data202\HomeWork03\FileProcessing\obj\Debug\FileProcessing.csprojAssemblyReference.cache
+J:\Data202\Data202\HomeWork03\FileProcessing\obj\Debug\FileProcessing.csproj.CoreCompileInputs.cache
+J:\Data202\Data202\HomeWork03\FileProcessing\obj\Debug\FileProcessing.csproj.CopyComplete
+J:\Data202\Data202\HomeWork03\FileProcessing\obj\Debug\FileProcessing.dll
+J:\Data202\Data202\HomeWork03\FileProcessing\obj\Debug\FileProcessing.pdb

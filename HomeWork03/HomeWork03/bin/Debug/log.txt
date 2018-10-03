@@ -1,3 +1,16 @@
 2018-10-02 20:16:10,574 [1] INFO  WindowsFormsApp3.Form1 [(null)] - Got it!
 2018-10-02 20:17:40,045 [1] INFO  WindowsFormsApp3.Form1 [(null)] - Got it!
 2018-10-02 20:17:45,446 [1] INFO  WindowsFormsApp3.Form1 [(null)] - Got it!
+2018-10-02 21:36:25,655 [1] INFO  WindowsFormsApp3.Form1 [(null)] - Read Input!
+2018-10-02 21:38:41,146 [1] INFO  WindowsFormsApp3.Form1 [(null)] - Read Input!
+2018-10-02 21:39:31,848 [1] INFO  WindowsFormsApp3.Form1 [(null)] - Read Input!
+2018-10-02 21:40:33,222 [1] INFO  WindowsFormsApp3.Form1 [(null)] - Read Input!
+2018-10-02 21:40:39,743 [1] INFO  WindowsFormsApp3.Form1 [(null)] - done
+2018-10-02 21:42:46,452 [1] INFO  WindowsFormsApp3.Form1 [(null)] - done
+2018-10-02 22:04:26,468 [1] INFO  WindowsFormsApp3.Form1 [(null)] - done
+2018-10-02 22:06:44,084 [1] INFO  WindowsFormsApp3.Form1 [(null)] - done
+2018-10-02 22:10:56,488 [1] INFO  WindowsFormsApp3.Form1 [(null)] - done
+2018-10-02 22:19:23,459 [1] INFO  WindowsFormsApp3.Form1 [(null)] - done
+2018-10-02 22:19:29,230 [1] INFO  WindowsFormsApp3.Form1 [(null)] - done
+2018-10-02 22:19:37,975 [1] INFO  WindowsFormsApp3.Form1 [(null)] - done
+2018-10-02 22:20:00,735 [1] INFO  WindowsFormsApp3.Form1 [(null)] - done
