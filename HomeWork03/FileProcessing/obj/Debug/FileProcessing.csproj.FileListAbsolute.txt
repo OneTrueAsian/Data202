@@ -16,3 +16,12 @@ C:\Users\Ryan\Documents\DATA202\Data202\HomeWork03\FileProcessing\obj\Debug\File
 C:\Users\Ryan\Documents\DATA202\Data202\HomeWork03\FileProcessing\obj\Debug\FileProcessing.dll
 C:\Users\Ryan\Documents\DATA202\Data202\HomeWork03\FileProcessing\obj\Debug\FileProcessing.pdb
 C:\Users\Ryan\Documents\DATA202\Data202\HomeWork03\FileProcessing\obj\Debug\FileProcessing.csprojAssemblyReference.cache
+D:\school\Data202\Data202\HomeWork03\FileProcessing\bin\Debug\FileProcessing.dll
+D:\school\Data202\Data202\HomeWork03\FileProcessing\bin\Debug\FileProcessing.pdb
+D:\school\Data202\Data202\HomeWork03\FileProcessing\bin\Debug\log4net.dll
+D:\school\Data202\Data202\HomeWork03\FileProcessing\bin\Debug\log4net.xml
+D:\school\Data202\Data202\HomeWork03\FileProcessing\obj\Debug\FileProcessing.csprojAssemblyReference.cache
+D:\school\Data202\Data202\HomeWork03\FileProcessing\obj\Debug\FileProcessing.csproj.CoreCompileInputs.cache
+D:\school\Data202\Data202\HomeWork03\FileProcessing\obj\Debug\FileProcessing.csproj.CopyComplete
+D:\school\Data202\Data202\HomeWork03\FileProcessing\obj\Debug\FileProcessing.dll
+D:\school\Data202\Data202\HomeWork03\FileProcessing\obj\Debug\FileProcessing.pdb

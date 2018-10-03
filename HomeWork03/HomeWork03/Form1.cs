@@ -82,7 +82,7 @@ namespace WindowsFormsApp3
         // Word Count
         private void button5_Click(object sender, EventArgs e)
         {
-
+            Console.WriteLine("Starting");
             string if1 = iFolder + "\\" + comboBox1.SelectedItem;
             string of1 = oFolder + "\\FileThis.txt";
             ProcessTxt a = new ProcessTxt();
@@ -91,7 +91,6 @@ namespace WindowsFormsApp3
             Process.Start(of1);
             log.Info("done");
             MessageBox.Show("Read from file logged");
-            Console.WriteLine("Starting");
         }
 
         // List the files

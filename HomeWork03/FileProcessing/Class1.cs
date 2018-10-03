@@ -30,7 +30,7 @@ namespace FileProcessing
                     FileMode.Append, FileAccess.Write)); // creates a file for word count
             string readF = File.ReadAllText(InFile); // read in the user input file and text
 
-            char[] delimiterChars = { ' ', ',', '.', ':', '\t' };
+            char[] delimiterChars = { ' ', ',', '.', ':', '\t', '\n','(',')','[',']','!','*','?','&'};
             string demoS = readF;
             string[] words = demoS.Split(delimiterChars,
                             StringSplitOptions.RemoveEmptyEntries);
