@@ -19,17 +19,13 @@ namespace WindowsFormsApp3
     {
         private static readonly log4net.ILog log = log4net.LogManager.GetLogger
                 (System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+        public string oFolder;
+        public string iFolder;
+
+
         public Form1()
         {
             InitializeComponent();
-        }
-
-        // Time Stamp
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Console.WriteLine("Starting");
-            log.Info("Got it!");
-            MessageBox.Show("Message Logged");
         }
 
         // Write To File
@@ -40,7 +36,7 @@ namespace WindowsFormsApp3
                 new StreamWriter(new FileStream(@"C:\temp\Demo.txt",
             FileMode.Append,
             FileAccess.Write)); 
-            sr.WriteLine(textBox1.Text);
+            //sr.WriteLine(textBox1.Text);
             sr.Close();
             sr.Dispose();
 
@@ -53,20 +49,34 @@ namespace WindowsFormsApp3
             MessageBox.Show("Write to file Logged");
         }
 
-        // Select the file
+        // Select the input file
         private void button4_Click(object sender, EventArgs e)
         {
-            string fName;
             folderBrowserDialog1.ShowDialog();
-            fName = folderBrowserDialog1.SelectedPath;
-            textBox2.Text = fName;
+            iFolder = folderBrowserDialog1.SelectedPath;
 
+            string[] files = Directory.GetFiles(iFolder); // Add files within file path to array
+
+            
+            int i; // Index of last file path "\" character
+            string f; // File name
+
+            foreach (string fname in files)
+            {
+                i = fname.LastIndexOf('\\') + 1;
+                f = fname.Substring(i);
+                if (f.EndsWith(".txt")) { comboBox1.Items.Add(f); }
+            }
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        // Select the output file
+        private void button1_Click_1(object sender, EventArgs e)
         {
-
+            folderBrowserDialog1.ShowDialog();
+            oFolder = folderBrowserDialog1.SelectedPath;
         }
+
+        private void Form1_Load(object sender, EventArgs e){}
 
         // Word Count
         private void button5_Click(object sender, EventArgs e)
@@ -116,9 +126,9 @@ namespace WindowsFormsApp3
         }
 
         // List the files
-        private void button3_Click(object sender, EventArgs e)
+        /*private void button3_Click(object sender, EventArgs e)
         {
-            string folder = textBox2.Text;
+            //string folder = textBox2.Text;
             try
             {
                 string[] files = Directory.GetFiles(folder);
@@ -131,8 +141,8 @@ namespace WindowsFormsApp3
             {
                 MessageBox.Show("Error:" + err.Message, "Problem", MessageBoxButtons.OK);
             }
-        }
+        }*/
 
-        
+
     }
 }
