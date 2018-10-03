@@ -82,9 +82,9 @@ namespace WindowsFormsApp3
         // Word Count
         private void button5_Click(object sender, EventArgs e)
         {
-            
-            string if1 = iFolder;
-            string of1 = oFolder + "FileThis.txt";
+
+            string if1 = iFolder + "\\" + comboBox1.SelectedItem;
+            string of1 = oFolder + "\\FileThis.txt";
             ProcessTxt a = new ProcessTxt();
             a.doString(if1, of1);
             MessageBox.Show("Got:" + Environment.NewLine + a.GettStr().ToString());
