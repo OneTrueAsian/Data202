@@ -11,3 +11,16 @@ J:\Data202\Data202\HomeWork03\HomeWork03\obj\Debug\HomeWork03.csproj.CopyComplet
 J:\Data202\Data202\HomeWork03\HomeWork03\obj\Debug\HomeWork03.exe
 J:\Data202\Data202\HomeWork03\HomeWork03\obj\Debug\HomeWork03.pdb
 J:\Data202\Data202\HomeWork03\HomeWork03\obj\Debug\HomeWork03.csprojAssemblyReference.cache
+C:\Users\Ryan\Documents\DATA202\Data202\HomeWork03\HomeWork03\bin\Debug\HomeWork03.exe.config
+C:\Users\Ryan\Documents\DATA202\Data202\HomeWork03\HomeWork03\bin\Debug\HomeWork03.exe
+C:\Users\Ryan\Documents\DATA202\Data202\HomeWork03\HomeWork03\bin\Debug\HomeWork03.pdb
+C:\Users\Ryan\Documents\DATA202\Data202\HomeWork03\HomeWork03\bin\Debug\log4net.dll
+C:\Users\Ryan\Documents\DATA202\Data202\HomeWork03\HomeWork03\bin\Debug\log4net.xml
+C:\Users\Ryan\Documents\DATA202\Data202\HomeWork03\HomeWork03\obj\Debug\HomeWork03.csprojAssemblyReference.cache
+C:\Users\Ryan\Documents\DATA202\Data202\HomeWork03\HomeWork03\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\Ryan\Documents\DATA202\Data202\HomeWork03\HomeWork03\obj\Debug\HomeWork03.Properties.Resources.resources
+C:\Users\Ryan\Documents\DATA202\Data202\HomeWork03\HomeWork03\obj\Debug\HomeWork03.csproj.GenerateResource.cache
+C:\Users\Ryan\Documents\DATA202\Data202\HomeWork03\HomeWork03\obj\Debug\HomeWork03.csproj.CoreCompileInputs.cache
+C:\Users\Ryan\Documents\DATA202\Data202\HomeWork03\HomeWork03\obj\Debug\HomeWork03.csproj.CopyComplete
+C:\Users\Ryan\Documents\DATA202\Data202\HomeWork03\HomeWork03\obj\Debug\HomeWork03.exe
+C:\Users\Ryan\Documents\DATA202\Data202\HomeWork03\HomeWork03\obj\Debug\HomeWork03.pdb
