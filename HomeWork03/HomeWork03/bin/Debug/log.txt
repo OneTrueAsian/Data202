@@ -1,0 +1,3 @@
+2018-10-02 20:16:10,574 [1] INFO  WindowsFormsApp3.Form1 [(null)] - Got it!
+2018-10-02 20:17:40,045 [1] INFO  WindowsFormsApp3.Form1 [(null)] - Got it!
+2018-10-02 20:17:45,446 [1] INFO  WindowsFormsApp3.Form1 [(null)] - Got it!
