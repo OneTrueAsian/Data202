@@ -29,27 +29,6 @@ namespace WindowsFormsApp3
             InitializeComponent();
         }
 
-        // Write To File
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-            StreamWriter sr =
-                new StreamWriter(new FileStream(@"C:\temp\Demo.txt",
-            FileMode.Append,
-            FileAccess.Write)); 
-            //sr.WriteLine(textBox1.Text);
-            sr.Close();
-            sr.Dispose();
-
-            MessageBox.Show("Message Sent");
-            Process.Start(@"C:\temp\Demo.txt"); // Opens the File
-
-            //Time Stamp
-            Console.WriteLine("Starting");
-            log.Info("Read Input!");
-            MessageBox.Show("Write to file Logged");
-        }
-
         // Select the input file
         private void button4_Click(object sender, EventArgs e)
         {
@@ -66,7 +45,14 @@ namespace WindowsFormsApp3
             {
                 i = fname.LastIndexOf('\\') + 1;
                 f = fname.Substring(i);
-                if (f.EndsWith(".txt")) { comboBox1.Items.Add(f); }
+                if (f.EndsWith(".txt")) {
+                    comboBox1.Items.Add(f);
+                    if (comboBox1  == null)
+                    {
+                        throw new System.ArgumentNullException("Please Select A File");
+                    }
+            
+                }
             }
         }
 
@@ -82,36 +68,26 @@ namespace WindowsFormsApp3
         // Word Count
         private void button5_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             
             string if1 = iFolder;
             string of1 = oFolder + "FileThis.txt";
+=======
+            string if1 = iFolder + "\\" + comboBox1.SelectedItem;
+            string of1 = oFolder + "\\FileThis.txt";
+
+>>>>>>> d653d8e087bb7ded4939d13d7131ffb7208a9671
             ProcessTxt a = new ProcessTxt();
             a.doString(if1, of1);
-            MessageBox.Show("Got:" + Environment.NewLine + a.GettStr().ToString());
+
+            Cursor.Current = Cursors.WaitCursor;
+            System.Threading.Thread.Sleep(2000);
+            Cursor.Current = Cursors.Default;
+
             Process.Start(of1);
             log.Info("done");
             MessageBox.Show("Read from file logged");
-            Console.WriteLine("Starting");
         }
-
-        // List the files
-        /*private void button3_Click(object sender, EventArgs e)
-        {
-            //string folder = textBox2.Text;
-            try
-            {
-                string[] files = Directory.GetFiles(folder);
-                foreach (string fname in files)
-                {
-                    listBox2.Items.Add(fname);
-                }
-            }
-            catch (Exception err)
-            {
-                MessageBox.Show("Error:" + err.Message, "Problem", MessageBoxButtons.OK);
-            }
-        }*/
-
 
     }
 }
