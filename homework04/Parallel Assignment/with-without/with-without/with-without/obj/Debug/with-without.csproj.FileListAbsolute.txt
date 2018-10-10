@@ -1,0 +1,18 @@
+H:\IS271\DataBased271\Week 11 - Big Data Parallel\parallelSample\with-without\with-without\bin\Debug\with-without.exe
+H:\IS271\DataBased271\Week 11 - Big Data Parallel\parallelSample\with-without\with-without\bin\Debug\with-without.pdb
+H:\IS271\DataBased271\Week 11 - Big Data Parallel\parallelSample\with-without\with-without\obj\Debug\with-without.csprojResolveAssemblyReference.cache
+H:\IS271\DataBased271\Week 11 - Big Data Parallel\parallelSample\with-without\with-without\obj\Debug\with_without.FormParallelDemo.resources
+H:\IS271\DataBased271\Week 11 - Big Data Parallel\parallelSample\with-without\with-without\obj\Debug\with_without.Properties.Resources.resources
+H:\IS271\DataBased271\Week 11 - Big Data Parallel\parallelSample\with-without\with-without\obj\Debug\with-without.csproj.GenerateResource.Cache
+H:\IS271\DataBased271\Week 11 - Big Data Parallel\parallelSample\with-without\with-without\obj\Debug\with-without.exe
+H:\IS271\DataBased271\Week 11 - Big Data Parallel\parallelSample\with-without\with-without\obj\Debug\with-without.pdb
+H:\IS271\DataBased271\Week 11 - Big Data Parallel\parallelSample\with-without\with-without\bin\Debug\with-without.exe.config
+C:\aw\Data 202\Week 08\with-without\with-without\bin\Debug\with-without.exe.config
+C:\aw\Data 202\Week 08\with-without\with-without\obj\Debug\with-without.exe
+C:\aw\Data 202\Week 08\with-without\with-without\obj\Debug\with-without.pdb
+C:\aw\Data 202\Week 08\with-without\with-without\bin\Debug\with-without.exe
+C:\aw\Data 202\Week 08\with-without\with-without\bin\Debug\with-without.pdb
+C:\aw\Data 202\Week 08\with-without\with-without\obj\Debug\with-without.csprojResolveAssemblyReference.cache
+C:\aw\Data 202\Week 08\with-without\with-without\obj\Debug\with_without.FormParallelDemo.resources
+C:\aw\Data 202\Week 08\with-without\with-without\obj\Debug\with_without.Properties.Resources.resources
+C:\aw\Data 202\Week 08\with-without\with-without\obj\Debug\with-without.csproj.GenerateResource.Cache
