@@ -22,7 +22,7 @@ namespace ConsoleServer
             // Dns.GetHostName returns the name of the   
             // host running the application.  
             IPHostEntry ipHostInfo = Dns.GetHostEntry(Dns.GetHostName());
-            IPAddress ipAddress = ipHostInfo.AddressList[0];
+            IPAddress ipAddress = ipHostInfo.AddressList[1];
             IPEndPoint localEndPoint = new IPEndPoint(ipAddress, 11000);
 
             // Create a TCP/IP socket.  
