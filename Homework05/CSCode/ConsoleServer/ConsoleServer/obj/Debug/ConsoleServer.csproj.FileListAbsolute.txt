@@ -11,3 +11,15 @@ J:\Data202\CSCode\CSCode\ConsoleServer\ConsoleServer\obj\Debug\ConsoleServer.csp
 J:\Data202\CSCode\CSCode\ConsoleServer\ConsoleServer\obj\Debug\ConsoleServer.csproj.CoreCompileInputs.cache
 J:\Data202\CSCode\CSCode\ConsoleServer\ConsoleServer\obj\Debug\ConsoleServer.exe
 J:\Data202\CSCode\CSCode\ConsoleServer\ConsoleServer\obj\Debug\ConsoleServer.pdb
+J:\Data202\Data202\Homework05\CSCode\ConsoleServer\ConsoleServer\bin\Debug\ConsoleServer.exe.config
+J:\Data202\Data202\Homework05\CSCode\ConsoleServer\ConsoleServer\bin\Debug\ConsoleServer.exe
+J:\Data202\Data202\Homework05\CSCode\ConsoleServer\ConsoleServer\bin\Debug\ConsoleServer.pdb
+J:\Data202\Data202\Homework05\CSCode\ConsoleServer\ConsoleServer\obj\Debug\ConsoleServer.csprojAssemblyReference.cache
+J:\Data202\Data202\Homework05\CSCode\ConsoleServer\ConsoleServer\obj\Debug\ConsoleServer.csproj.CoreCompileInputs.cache
+J:\Data202\Data202\Homework05\CSCode\ConsoleServer\ConsoleServer\obj\Debug\ConsoleServer.exe
+J:\Data202\Data202\Homework05\CSCode\ConsoleServer\ConsoleServer\obj\Debug\ConsoleServer.pdb
+H:\Data202\Data202\Homework05\CSCode\ConsoleServer\ConsoleServer\bin\Debug\ConsoleServer.exe.config
+H:\Data202\Data202\Homework05\CSCode\ConsoleServer\ConsoleServer\bin\Debug\ConsoleServer.exe
+H:\Data202\Data202\Homework05\CSCode\ConsoleServer\ConsoleServer\obj\Debug\ConsoleServer.csproj.CoreCompileInputs.cache
+H:\Data202\Data202\Homework05\CSCode\ConsoleServer\ConsoleServer\obj\Debug\ConsoleServer.exe
+H:\Data202\Data202\Homework05\CSCode\ConsoleServer\ConsoleServer\obj\Debug\ConsoleServer.pdb

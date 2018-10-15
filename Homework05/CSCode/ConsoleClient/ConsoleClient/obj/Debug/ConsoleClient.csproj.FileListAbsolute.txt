@@ -4,3 +4,16 @@ C:\abw\Data202\Week 06\CSCode\ConsoleClient\ConsoleClient\bin\Debug\ConsoleClien
 C:\abw\Data202\Week 06\CSCode\ConsoleClient\ConsoleClient\obj\Debug\ConsoleClient.csproj.CoreCompileInputs.cache
 C:\abw\Data202\Week 06\CSCode\ConsoleClient\ConsoleClient\obj\Debug\ConsoleClient.exe
 C:\abw\Data202\Week 06\CSCode\ConsoleClient\ConsoleClient\obj\Debug\ConsoleClient.pdb
+J:\Data202\Data202\Homework05\CSCode\ConsoleClient\ConsoleClient\bin\Debug\ConsoleClient.exe.config
+J:\Data202\Data202\Homework05\CSCode\ConsoleClient\ConsoleClient\bin\Debug\ConsoleClient.exe
+J:\Data202\Data202\Homework05\CSCode\ConsoleClient\ConsoleClient\bin\Debug\ConsoleClient.pdb
+J:\Data202\Data202\Homework05\CSCode\ConsoleClient\ConsoleClient\obj\Debug\ConsoleClient.csprojAssemblyReference.cache
+J:\Data202\Data202\Homework05\CSCode\ConsoleClient\ConsoleClient\obj\Debug\ConsoleClient.csproj.CoreCompileInputs.cache
+J:\Data202\Data202\Homework05\CSCode\ConsoleClient\ConsoleClient\obj\Debug\ConsoleClient.exe
+J:\Data202\Data202\Homework05\CSCode\ConsoleClient\ConsoleClient\obj\Debug\ConsoleClient.pdb
+H:\Data202\Data202\Homework05\CSCode\ConsoleClient\ConsoleClient\bin\Debug\ConsoleClient.exe.config
+H:\Data202\Data202\Homework05\CSCode\ConsoleClient\ConsoleClient\bin\Debug\ConsoleClient.exe
+H:\Data202\Data202\Homework05\CSCode\ConsoleClient\ConsoleClient\bin\Debug\ConsoleClient.pdb
+H:\Data202\Data202\Homework05\CSCode\ConsoleClient\ConsoleClient\obj\Debug\ConsoleClient.csproj.CoreCompileInputs.cache
+H:\Data202\Data202\Homework05\CSCode\ConsoleClient\ConsoleClient\obj\Debug\ConsoleClient.exe
+H:\Data202\Data202\Homework05\CSCode\ConsoleClient\ConsoleClient\obj\Debug\ConsoleClient.pdb
