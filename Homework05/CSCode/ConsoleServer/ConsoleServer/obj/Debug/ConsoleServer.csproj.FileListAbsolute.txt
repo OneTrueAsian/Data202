@@ -23,3 +23,5 @@ H:\Data202\Data202\Homework05\CSCode\ConsoleServer\ConsoleServer\bin\Debug\Conso
 H:\Data202\Data202\Homework05\CSCode\ConsoleServer\ConsoleServer\obj\Debug\ConsoleServer.csproj.CoreCompileInputs.cache
 H:\Data202\Data202\Homework05\CSCode\ConsoleServer\ConsoleServer\obj\Debug\ConsoleServer.exe
 H:\Data202\Data202\Homework05\CSCode\ConsoleServer\ConsoleServer\obj\Debug\ConsoleServer.pdb
+H:\Data202\Data202\Homework05\CSCode\ConsoleServer\ConsoleServer\bin\Debug\ConsoleServer.pdb
+H:\Data202\Data202\Homework05\CSCode\ConsoleServer\ConsoleServer\obj\Debug\ConsoleServer.csprojAssemblyReference.cache

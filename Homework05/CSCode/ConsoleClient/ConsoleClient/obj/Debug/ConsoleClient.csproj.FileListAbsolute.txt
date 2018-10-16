@@ -17,3 +17,4 @@ H:\Data202\Data202\Homework05\CSCode\ConsoleClient\ConsoleClient\bin\Debug\Conso
 H:\Data202\Data202\Homework05\CSCode\ConsoleClient\ConsoleClient\obj\Debug\ConsoleClient.csproj.CoreCompileInputs.cache
 H:\Data202\Data202\Homework05\CSCode\ConsoleClient\ConsoleClient\obj\Debug\ConsoleClient.exe
 H:\Data202\Data202\Homework05\CSCode\ConsoleClient\ConsoleClient\obj\Debug\ConsoleClient.pdb
+H:\Data202\Data202\Homework05\CSCode\ConsoleClient\ConsoleClient\obj\Debug\ConsoleClient.csprojAssemblyReference.cache

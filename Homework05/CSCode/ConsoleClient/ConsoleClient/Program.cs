@@ -17,7 +17,7 @@ public class ConsoleClient
         {
             // Establish the remote endpoint for the socket.  
             // This example uses port 11000 on the local computer.  
-            IPHostEntry ipHostInfo = Dns.GetHostEntry(Dns.GetHostName());
+            IPHostEntry ipHostInfo = Dns.GetHostEntry("maroon22");
             IPAddress ipAddress = ipHostInfo.AddressList[0];
             IPEndPoint remoteEP = new IPEndPoint(ipAddress,11000);
 
