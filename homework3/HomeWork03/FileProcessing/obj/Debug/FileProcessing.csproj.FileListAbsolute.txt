@@ -28,3 +28,12 @@ D:\school\Data202\Data202\HomeWork03\FileProcessing\obj\Debug\FileProcessing.csp
 D:\school\Data202\Data202\HomeWork03\FileProcessing\obj\Debug\FileProcessing.dll
 D:\school\Data202\Data202\HomeWork03\FileProcessing\obj\Debug\FileProcessing.pdb
 >>>>>>> d653d8e087bb7ded4939d13d7131ffb7208a9671
+D:\school\Data202\Data202\homework3\HomeWork03\FileProcessing\bin\Debug\FileProcessing.dll
+D:\school\Data202\Data202\homework3\HomeWork03\FileProcessing\bin\Debug\FileProcessing.pdb
+D:\school\Data202\Data202\homework3\HomeWork03\FileProcessing\bin\Debug\log4net.dll
+D:\school\Data202\Data202\homework3\HomeWork03\FileProcessing\bin\Debug\log4net.xml
+D:\school\Data202\Data202\homework3\HomeWork03\FileProcessing\obj\Debug\FileProcessing.csprojAssemblyReference.cache
+D:\school\Data202\Data202\homework3\HomeWork03\FileProcessing\obj\Debug\FileProcessing.csproj.CoreCompileInputs.cache
+D:\school\Data202\Data202\homework3\HomeWork03\FileProcessing\obj\Debug\FileProcessing.csproj.CopyComplete
+D:\school\Data202\Data202\homework3\HomeWork03\FileProcessing\obj\Debug\FileProcessing.dll
+D:\school\Data202\Data202\homework3\HomeWork03\FileProcessing\obj\Debug\FileProcessing.pdb
