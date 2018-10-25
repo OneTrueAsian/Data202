@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<organizations number="50">
+  <School>Calvin</School>
+  <Club>
+    <Name> Abstraction</Name>
+    <Membership>60</Membership>
+    <Dues>40.00</Dues>
+  </Club>
+  <Club>
+    <Name>Women In Computing</Name>
+    <Membership>2000</Membership>
+    <Dues>10.00</Dues>
+  </Club>
+</organizations>
