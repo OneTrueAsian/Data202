@@ -1,0 +1,10 @@
+C:\Users\joeyf\source\repos\hwkForm1\hwkForm1\bin\Debug\hwkForm1.exe.config
+C:\Users\joeyf\source\repos\hwkForm1\hwkForm1\bin\Debug\hwkForm1.exe
+C:\Users\joeyf\source\repos\hwkForm1\hwkForm1\bin\Debug\hwkForm1.pdb
+C:\Users\joeyf\source\repos\hwkForm1\hwkForm1\obj\Debug\hwkForm1.csprojAssemblyReference.cache
+C:\Users\joeyf\source\repos\hwkForm1\hwkForm1\obj\Debug\hwkForm1.Form1.resources
+C:\Users\joeyf\source\repos\hwkForm1\hwkForm1\obj\Debug\hwkForm1.Properties.Resources.resources
+C:\Users\joeyf\source\repos\hwkForm1\hwkForm1\obj\Debug\hwkForm1.csproj.GenerateResource.cache
+C:\Users\joeyf\source\repos\hwkForm1\hwkForm1\obj\Debug\hwkForm1.csproj.CoreCompileInputs.cache
+C:\Users\joeyf\source\repos\hwkForm1\hwkForm1\obj\Debug\hwkForm1.exe
+C:\Users\joeyf\source\repos\hwkForm1\hwkForm1\obj\Debug\hwkForm1.pdb
