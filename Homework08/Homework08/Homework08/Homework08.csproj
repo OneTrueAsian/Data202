@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{92C13E8B-7858-41CF-BF63-33578C0D5555}</ProjectGuid>
+    <ProjectGuid>{B729971E-968C-4043-82AA-BF21A9B99767}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Homework08</RootNamespace>
     <AssemblyName>Homework08</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>

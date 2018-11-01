@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Xml;
+using System.Xml.Linq;
+using System.Xml.XPath;
 
 namespace Homework08
 {
@@ -11,8 +12,10 @@ namespace Homework08
     {
         static void Main(string[] args)
         {
-            var doc = new XmlDocument();
-            
+            var count = XDocument.Load("C:\temp\readfile.xml").
+                XPathSelectElements("//response").Count();
+
+            Console.WriteLine(count);
         }
     }
 }

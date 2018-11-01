@@ -1,46 +1,78 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<transaction>
-  <auto>
-    <desc>Break Rotor</desc>
-    <value>45.00</value>
-    <serial>B98402984302</serial>
-    <availability>10/30/2020</availability>
-    <contact>
-      <name>Joey F</name>
-      <phone>555-363-8896</phone>
-      <email>jjf25@gmail.com</email>
-    </contact>
-  </auto>
-  <furniture>
-    <desc>chair</desc>
-    <value>2.00</value>
-    <availability>2/5/2019</availability>
-    <contact>
-      <name>Brad Benson</name>
-      <phone>555-633-6696</phone>
-      <email>bab45@gmail.com</email>
-    </contact>
-  </furniture>
-  <book>
-    <desc>Murach's C# 2015</desc>
-    <value>25.00</value>
-    <serial>B985000000000</serial>
-    <availability>5/25/2030</availability>
-    <contact>
-      <name>Ryan Holwerda</name>
-      <phone>555-233-8756</phone>
-      <email>ryh4@gmail.com</email>
-    </contact>
-  </book>
-  <computer>
-    <desc>HP Inspiron 15000</desc>
-  <value>400.00</value>
-  <serial>B342D2545H234</serial>
-  <availability>10/15/2019</availability>
-    <contact>
-      <name>Joey F</name>
-      <phone>555-363-8896</phone>
-      <email>jjf25@gmail.com</email>
-    </contact>
-  </computer>
-</transaction>
+<transactions>
+  <transaction>
+    <item>
+      <type>auto</type>
+      <desc>Cat converter</desc>
+      <value>200</value>
+      <serial>123</serial>
+      <date>11/01/2018</date>
+      <contact>
+        <name>Joey</name>
+        <phone>555-111-2233</phone>
+        <email>jjf25</email>
+      </contact>
+    </item>
+    <buyer>
+      <name>Ryan</name>
+      <phone>616-555-5555</phone>
+      <email>rlh35</email>
+    </buyer>
+  </transaction>
+  <transaction>
+    <item>
+      <type>furniture</type>
+      <desc>chair</desc>
+      <value>40</value>
+      <date>8/1/2022</date>
+      <contact>
+        <name>Ryan</name>
+        <phone>616-555-5555</phone>
+        <email>rlh35</email>
+      </contact>
+    </item>
+    <buyer>
+      <name>Brad</name>
+      <phone>989-662-8889</phone>
+      <email>bab45</email>
+    </buyer>
+  </transaction>
+  <transaction>
+    <item>
+      <type>book</type>
+      <desc>Murach's C# 2015</desc>
+      <value>1</value>
+      <serial>9780000000000</serial>
+      <date>5/20/2019</date>
+      <contact>
+        <name>Brad</name>
+        <phone>989-662-8889</phone>
+        <email>bab45</email>
+      </contact>
+    </item>
+    <buyer>
+      <name>Joey</name>
+      <phone>474-632-8974</phone>
+      <email>jjf25</email>
+    </buyer>
+  </transaction>
+  <transaction>  
+    <item>
+      <type>computer</type>
+      <desc>Dell Inspiron 1500</desc>
+      <value>400</value>
+      <serial>D283756214</serial>
+      <date>10/25/2018</date>
+      <contact>
+        <name>Joey</name>
+        <phone>474-632-8974</phone>
+        <email>jjf25</email>
+      </contact>
+    </item>
+    <buyer>
+      <name>Brad</name>
+      <phone>989-662-8889</phone>
+      <email>bab45</email>
+    </buyer>
+  </transaction>
+</transactions>
