@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
 using System.Xml.XPath;
+using System.Collections.Generic;
 
 namespace Homework08
 {
@@ -15,16 +16,46 @@ namespace Homework08
         {
             XmlDocument readfile = new XmlDocument();
             readfile.Load("readfile.xml");
+            string path = @"H:\Data202\Data202\Homework08\Homework08\Homework08\bin\Debug\readfile.xml";
 
-            //int  count = readfile.SelectNodes("survey/question/response").Count;
-            int countN = readfile.SelectNodes("survey/question[1]/response[. = \"N\"]").Count;
-            int countY = readfile.SelectNodes("survey/question[1]/response[. = \"Y\"]").Count;
+            XmlReaderSettings settings = new XmlReaderSettings();
+            settings.IgnoreComments = true;
 
-            int countN2 = readfile.SelectNodes("survey/question[2]/response[. = \"N\"]").Count;
-            int countY2 = readfile.SelectNodes("survey/question[2]/response[. = \"Y\"]").Count;
+            XmlReader xmlIn = XmlReader.Create(path, settings);
 
-            Console.WriteLine("Question 1: Yes="+ countY + "  No=" + countN);
-            Console.WriteLine("Question 2: Yes=" + countY2 + "  No=" + countN2);
+            int countN = readfile.SelectNodes("survey /question[0]/response[. = \"N\"]").Count;
+            int countY = readfile.SelectNodes("survey/question[0]/response[. = \"Y\"]").Count;
+            int count = 1;
+            while (xmlIn.Read())
+            {
+                if (xmlIn.NodeType == XmlNodeType.Element &&
+                    xmlIn.Name == "question")
+                {
+                    countN = readfile.SelectNodes("survey/question["+count+"]/response[. = \"N\"]").Count;
+                    countY = readfile.SelectNodes("survey/question["+count+"]/ response[. = \"Y\"]").Count;
+                    
+                    Console.WriteLine("Question "+ count+ ":" + 
+                        "Yes=" + countY + "  No=" + countN);
+                    count++;
+                }
+                
+
+            }
+
+            //option 2
+            //int countN = readfile.SelectNodes("survey/question[1]/response[. = \"N\"]").Count;
+            //int countY = readfile.SelectNodes("survey/question[1]/response[. = \"Y\"]").Count;
+
+            // int countN2 = readfile.SelectNodes("survey/question[2]/response[. = \"N\"]").Count;
+            //int countY2 = readfile.SelectNodes("survey/question[2]/response[. = \"Y\"]").Count;
+
+            //Console.WriteLine("Question 1: Yes=" + countY + "  No=" + countN);
+
+            //Console.WriteLine("Question 2: Yes=" + countY2 + "  No=" + countN2);
+            
+
         }
     }
 }
+
+            

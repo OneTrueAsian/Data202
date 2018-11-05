@@ -114,4 +114,61 @@
 		<response>Y</response>
 		<response>Y</response>
 	</question>
+  <question id="3">
+    <response>Y</response>
+    <response>Y</response>
+    <response>Y</response>
+    <response>N</response>
+    <response>Y</response>
+    <response>N</response>
+    <response>N</response>
+    <response>N</response>
+    <response>N</response>
+    <response>Y</response>
+    <response>N</response>
+    <response>Y</response>
+    <response>N</response>
+    <response>Y</response>
+    <response>N</response>
+    <response>Y</response>
+    <response>N</response>
+    <response>Y</response>
+    <response>Y</response>
+    <response>N</response>
+    <response>N</response>
+    <response>N</response>
+    <response>N</response>
+    <response>N</response>
+    <response>N</response>
+    <response>N</response>
+    <response>N</response>
+    <response>Y</response>
+    <response>N</response>
+    <response>Y</response>
+    <response>N</response>
+    <response>Y</response>
+    <response>N</response>
+    <response>Y</response>
+    <response>N</response>
+    <response>Y</response>
+    <response>Y</response>
+    <response>Y</response>
+    <response>N</response>
+    <response>Y</response>
+    <response>N</response>
+    <response>N</response>
+    <response>N</response>
+    <response>N</response>
+    <response>N</response>
+    <response>Y</response>
+    <response>N</response>
+    <response>Y</response>
+    <response>N</response>
+    <response>Y</response>
+    <response>N</response>
+    <response>Y</response>
+    <response>N</response>
+    <response>Y</response>
+    <response>Y</response>
+  </question>
 </survey>
