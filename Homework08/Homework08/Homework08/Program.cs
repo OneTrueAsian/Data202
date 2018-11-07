@@ -20,12 +20,7 @@ namespace Homework08
             XmlDocument readfile = new XmlDocument();
             readfile.Load(path);
 
-            //??
-            XmlReaderSettings settings = new XmlReaderSettings();
-            settings.IgnoreComments = true;
-
-            //creates path to for the xmlreader
-            XmlReader xmlIn = XmlReader.Create(path, settings);
+            XmlNodeList nodelist = readfile.SelectNodes("survey /question");
 
             // Select nodes starting at index question 0 and get count of Y and N
             int countN = readfile.SelectNodes("survey /question[0]/response[. = \"N\"]").Count;
@@ -34,23 +29,16 @@ namespace Homework08
             // initiate count to go to the next question response
             int count = 1;
 
-            // while xmlIn is reading the file
-            while (xmlIn.Read())
+            foreach (XmlNode node in nodelist)
             {
-                // if loop if the name is question and th xmlin is a nodetype of element
-                if (xmlIn.NodeType == XmlNodeType.Element &&
-                    xmlIn.Name == "question")
-                {
-                    //select the nodes of the Y and N at question index count && count the file
-                    countN = readfile.SelectNodes("survey/question["+count+"]/response[. = \"N\"]").Count;
-                    countY = readfile.SelectNodes("survey/question["+count+"]/ response[. = \"Y\"]").Count;
-                    // write out the result
-                    Console.WriteLine("Question "+ count+ ":" + 
-                        "Yes=" + countY + "  No=" + countN);
-                    // incrememnt count of the index to move on to the next question responses
-                    count++;
-                }
-   
+                //select the nodes of the Y and N at question index count && count the file
+                countN = readfile.SelectNodes("survey/question[" + count + "]/response[. = \"N\"]").Count;
+                countY = readfile.SelectNodes("survey/question[" + count + "]/ response[. = \"Y\"]").Count;
+                // write out the result
+                Console.WriteLine("Question " + count + ":" +
+                    "Yes=" + countY + "  No=" + countN);
+                // incrememnt count of the index to move on to the next question responses
+                count++;
             }
 
             /*
