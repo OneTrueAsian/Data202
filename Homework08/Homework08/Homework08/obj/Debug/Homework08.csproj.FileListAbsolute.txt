@@ -4,3 +4,10 @@ H:\Data202\Data202\Homework08\Homework08\Homework08\bin\Debug\Homework08.pdb
 H:\Data202\Data202\Homework08\Homework08\Homework08\obj\Debug\Homework08.csproj.CoreCompileInputs.cache
 H:\Data202\Data202\Homework08\Homework08\Homework08\obj\Debug\Homework08.exe
 H:\Data202\Data202\Homework08\Homework08\Homework08\obj\Debug\Homework08.pdb
+D:\school\Data202\Data202\Homework08\Homework08\Homework08\bin\Debug\Homework08.exe.config
+D:\school\Data202\Data202\Homework08\Homework08\Homework08\bin\Debug\Homework08.exe
+D:\school\Data202\Data202\Homework08\Homework08\Homework08\bin\Debug\Homework08.pdb
+D:\school\Data202\Data202\Homework08\Homework08\Homework08\obj\Debug\Homework08.csprojAssemblyReference.cache
+D:\school\Data202\Data202\Homework08\Homework08\Homework08\obj\Debug\Homework08.csproj.CoreCompileInputs.cache
+D:\school\Data202\Data202\Homework08\Homework08\Homework08\obj\Debug\Homework08.exe
+D:\school\Data202\Data202\Homework08\Homework08\Homework08\obj\Debug\Homework08.pdb

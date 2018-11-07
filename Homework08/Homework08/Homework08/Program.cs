@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
 using System.Xml.XPath;
-using System.Collections.Generic;
-
 namespace Homework08
 {
     class Program
@@ -16,7 +14,10 @@ namespace Homework08
         {
             XmlDocument readfile = new XmlDocument();
             readfile.Load("readfile.xml");
-            string path = @"H:\Data202\Data202\Homework08\Homework08\Homework08\bin\Debug\readfile.xml";
+
+            Console.WriteLine("Enter xml File: ");
+            string path = Console.ReadLine().ToString();
+            //string path = @"H:\Data202\Data202\Homework08\Homework08\Homework08\bin\Debug\readfile.xml";
 
             XmlReaderSettings settings = new XmlReaderSettings();
             settings.IgnoreComments = true;
@@ -38,8 +39,7 @@ namespace Homework08
                         "Yes=" + countY + "  No=" + countN);
                     count++;
                 }
-                
-
+   
             }
 
             //option 2
