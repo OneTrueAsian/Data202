@@ -11,3 +11,4 @@ D:\school\Data202\Data202\Homework08\Homework08\Homework08\obj\Debug\Homework08.
 D:\school\Data202\Data202\Homework08\Homework08\Homework08\obj\Debug\Homework08.csproj.CoreCompileInputs.cache
 D:\school\Data202\Data202\Homework08\Homework08\Homework08\obj\Debug\Homework08.exe
 D:\school\Data202\Data202\Homework08\Homework08\Homework08\obj\Debug\Homework08.pdb
+H:\Data202\Data202\Homework08\Homework08\Homework08\obj\Debug\Homework08.csprojAssemblyReference.cache
