@@ -1,0 +1,5 @@
+plantid	CPO	Amount
+1	A121	3
+2	B122	5
+1	A122	12
+1	B123	2
